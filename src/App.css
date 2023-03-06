@@ -1,0 +1,74 @@
+.app {
+  width: 490px;
+  min-width: 490px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* top section */
+.top {
+  background: lightblue;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.input-container {
+  height: 35px;
+}
+
+input {
+  height: 100%;
+  margin-bottom: 10px;
+  width: 350px;
+  padding: 10px;
+}
+
+.input-container button {
+  height: 100%;
+  width: 80px;
+}
+
+.complete {
+  color: lightgray;
+  text-decoration: line-through;
+}
+
+/* todo section */
+.todo {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 120px;
+  height: fit-content;
+  border-top: 1px solid black;
+  padding: 0 10px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  width: 100px;
+  height: 30px;
+  margin: 0 20px;
+}
